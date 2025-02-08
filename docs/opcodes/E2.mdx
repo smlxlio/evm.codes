@@ -13,11 +13,11 @@ The **RJUMPV** instruction may alter the program counter with relative offset, t
 
 An interesting feature is that `RJUMPV 0 relative_offset` is an inverted-[RJUMPI](/#E1), which can be used in many cases instead of `ISZERO RJUMPI relative_offset`.
 
-It offer reduced gas cost (both at deploy and execution time) and better analysis properties.
+It offers reduced gas cost (both at deploy and execution time) and better analysis properties.
 
 ## Stack input 
 
-0. `case`: value that pop from the stack, used to compare with max index, and define how program counter will altered.
+0. `case`: value that is popped from the stack, used to compare with max index, and define how program counter will altered.
 
 ## Immediate argument
 
