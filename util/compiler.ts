@@ -9,7 +9,7 @@ export const compilerVersion = `soljson-v0.8.27+commit.40a35a09`
 /**
  * Gets target EVM version from a hardfork name
  *
- * @param forkName The String harffork name
+ * @param forkName The String hardfork name
  * @returns The String matching target EVM version
  * @see https://docs.soliditylang.org/en/v0.8.15/using-the-compiler.html#target-options
  */
