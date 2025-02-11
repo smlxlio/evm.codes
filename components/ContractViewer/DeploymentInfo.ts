@@ -41,7 +41,7 @@ export type DeploymentsCollection = {
  * @property mainContractPath (path to main contract in source code - taken from etherscan)
  * @property etherscanInfo (slightly parsed response from etherscan)
  * @property compilationInfo (need to decide if this is directly from etherscan
- *           or flattenned or post-processed code for accessiblity)
+ *           or flattenned or post-processed code for accessibility)
  * @property abi (fetched from etherscan, sourcify or compiled with solcjs)
  * @property accessibleCode (publicized functions, etc.)
  * @property accessibleAbi (publicized functions, etc.)
